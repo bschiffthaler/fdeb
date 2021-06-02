@@ -2,7 +2,7 @@
 #define NODE_HPP
 
 #include "meerkat_vector2.hpp"
-#include "GLUT/glut.h"
+#include "GL/glut.h"
 
 #define NUM_SEGMENTS 16
 #define COS_THETA 0.92387953251

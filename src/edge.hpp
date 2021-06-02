@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 #include "meerkat_vector2.hpp"
-#include "GLUT/glut.h"
+#include "GL/glut.h"
 #include"math.h"
 #include <algorithm>
 

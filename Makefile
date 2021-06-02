@@ -1,9 +1,9 @@
 SRCDIR = src
 CC = g++
-CPPFLAGS = -c
+CPPFLAGS = -c -fopenmp
 UNAME := $(shell uname -s)
 ifeq ($(UNAME), Linux)
-	LDFLAGS = -O3 -lglut -lGLU -lgl
+	LDFLAGS = -O3 -lglut -lGLU -lGL -fopenmp
 endif
 ifeq ($(UNAME), Darwin)
 	LDFLAGS = -O3 -framework GLUT -framework OpenGL

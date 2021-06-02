@@ -1,6 +1,6 @@
 #include "stdlib.h"
 #include "graph.hpp"
-#include "GLUT/glut.h"
+#include "GL/glut.h"
 #include "meerkat_argument_manager.hpp"
 #include "meerkat_vector2.hpp"
 
